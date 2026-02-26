@@ -1,0 +1,21 @@
+# This is a basic mod configuration for a Mindustry ultra tower mod.
+name: Mindustry Ultra Tower Mod
+author: micro995409
+version: "1.0.0"
+description: A mod to add ultra towers to Mindustry.
+
+# The configuration for ultra tower
+ultraTower:
+  name: Ultra Tower
+  description: An ultra tower that deals massive damage.
+  health: 3000
+  tier: 5
+  size: 3
+  itemCapacity: 360
+  outputItem: "copper"
+  outputRate: 5
+  requirements:
+    - item: "titanium"
+      amount: 50
+    - item: "silicon"
+      amount: 30
